@@ -7,7 +7,7 @@
 		<button class="navbar-toggler rounded-0" type="button" data-toggle="collapse" data-target="#dmiNav" aria-controls="dmiNav" aria-expanded="false" aria-label="Toggle navigation">
 			<i class="fas fa-bars fa-2x"></i>
 		</button>
-		<div class="collapse navbar-collapse text-uppercase" id="dmiNav">
+		<div class="collapse navbar-collapse text-uppercase font-weight-bold" id="dmiNav">
 			<?php
 			wp_nav_menu( array(
 				'theme_location'    => 'primary',
