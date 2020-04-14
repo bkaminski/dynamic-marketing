@@ -44,10 +44,7 @@ add_action('wp_loaded', 'prefix_output_buffer_start');
 function prefix_output_buffer_start() { 
 	ob_start("prefix_output_callback"); 
 }
-add_action('shutdown', 'prefix_output_buffer_end');
-function prefix_output_buffer_end() { 
-	ob_end_flush(); 
-}
+
 function prefix_output_callback($buffer) {
 	return preg_replace( "%[ ]type=[\'\"]text\/(javascript|css)[\'\"]%", '', $buffer );
 }
@@ -77,10 +74,7 @@ function excerpt_read_more_link($output)
 add_filter('the_excerpt', 'excerpt_read_more_link');
 //REMOVE COMMENTS FEED RSS
 add_filter( 'feed_links_show_comments_feed', '__return_false' );
-//REMOVE JSON API
-remove_action( 'wp_head', 'rest_output_link_wp_head');
-remove_action( 'wp_head', 'wp_oembed_add_discovery_links');
-remove_action( 'template_redirect', 'rest_output_link_header', 11);
+
 //REMOVE WP VERSION FROM CODE
 function intSound_remove_version() {
 return '';
