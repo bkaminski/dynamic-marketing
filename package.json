@@ -36,5 +36,4 @@
     "gulp-util": "^3.0.8",
     "gulp-watch": "^5.0.1",
     "lodash.template": "^4.5.0"
-  }
 }
