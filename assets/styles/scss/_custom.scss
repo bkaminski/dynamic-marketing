@@ -1,6 +1,61 @@
 body {
 	font-family: 'Raleway', sans-serif;
+	padding: 0;
+    margin:0;
+    height:100%;
+}
+body {
+	padding-top: 95px;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	padding-top: 95px;
 }
 a {
 	outline: none;
+}
+.video-hero {
+	min-height: 380px;
+	width: 100%;
+	background-image: url('../../../../uploads/video-poster.png'); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.7;
+	@include breakpoint (sm) {
+		height: 600px;
+		background-color: #006da0;
+		width: 100%;
+		display: block;
+		overflow: hidden;
+	}
+}
+#video1 { 
+	margin:0 auto;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    z-index: -1;
+}
+.video-text {
+	height: 320px;
+	margin-top: -320px;
+	color: #fff;
+	@include breakpoint (sm) {
+		position: relative;
+		color: #fff;
+		padding-top: -2rem;
+		padding-left: 1.4rem;
+		display: block;
+		height: 500px;
+		margin-top: -500px;
+	}
+	
+}
+.title-under {
+	border-bottom: 7px solid #fff;
+	width: 42%;
 }

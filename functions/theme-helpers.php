@@ -1,7 +1,4 @@
 <?php
-//GUTENBERG SUPPORT
-add_theme_support( 'align-wide' );
-add_theme_support( 'responsive-embeds' );
 //HTML 5 SUPPORT
 add_theme_support( 'html5', array( 'comment-list', 'comment-form', 'search-form', 'gallery', 'caption' ) );
 //HIDE ADMIN BAR FROM FRONT END
@@ -10,8 +7,11 @@ show_admin_bar(false);
 add_theme_support( 'title-tag' );
 //ALLOW POSTS AND PAGES FEATURED IMAGE
 add_theme_support('post-thumbnails');
-//ADD RSS/ATOM SUPPORT
-add_theme_support( 'automatic-feed-links' );
+// DISABLE GUTENBERG CSS
+add_action( 'wp_print_styles', 'wps_deregister_styles', 100 );
+function wps_deregister_styles() {
+    wp_dequeue_style( 'wp-block-library' );
+}
 //ADD TAG SUPPORT TO PAGES
 function tags_support_all() {
     register_taxonomy_for_object_type('post_tag', 'page');
