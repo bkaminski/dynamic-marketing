@@ -7,8 +7,10 @@
 	</div>
 	<div class="video-text">
 		<div class="container">
-			<h1 class="text-uppercase display-3 fw-bold title-under" style="color:#000;line-height:3.5rem;">Making<br /> Connections</h1>
-			<p class="h1 display-3 text-uppercase fw-bold" style="line-height:3.5rem;margin-top:-12px;">Delivering<br />Results</p>
+			<h1 class="text-uppercase display-3 fw-bold title-under main-heading">Making<br /> Connections</h1>
+			<p class="h1 display-3 text-uppercase fw-bold sub-heading pb-5">Delivering<br />Results</p>
+			<p class="h4 fw-bold pb-3">Committed to growing your companies <span class="orange-text">success</span>.</p>
+			<a href="#" class="btn btn-orange rounded-0 text-uppercase px-5 fw-bold">Learn More</a>
 		</div>
 	</div>
 </section>

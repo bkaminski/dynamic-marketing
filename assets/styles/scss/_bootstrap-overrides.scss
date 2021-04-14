@@ -9,3 +9,14 @@
     padding-right: 1rem;
     padding-left: 1rem;
 }
+.btn-orange {
+	background: #fff;
+	color: #F99D25;
+	border: 2px solid #F99D25;
+	transition: 0.3s ease-in-out;
+	&:hover {
+		background: #F99D25;
+		color: #fff;
+		transition: 0.3s ease-in-out;
+	}
+}
