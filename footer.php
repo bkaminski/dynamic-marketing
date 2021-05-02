@@ -5,8 +5,8 @@
 				<p class="text-center orange-text">Follow Us on the Path to Success -</p>
 				<p class="text-white text-center">
 					<a href="http://www.facebook.com/thedmigroup" target="_blank" class="text-white"><i class="fab fa-facebook-square fa-2x fa-fw"></i></a>
-					<a href="" target="_blank" class="text-white"><i class="fab fa-twitter-square fa-2x fa-fw"></i></a>
-					<a href="" target="_blank" class="text-white"><i class="fab fa-instagram-square fa-2x fa-fw"></i></a>
+					<a href="https://twitter.com/TheDMIGroupInc" target="_blank" class="text-white"><i class="fab fa-twitter-square fa-2x fa-fw"></i></a>
+					<a href="https://www.instagram.com/thedmigroup/" target="_blank" class="text-white"><i class="fab fa-instagram-square fa-2x fa-fw"></i></a>
 				</p>
 				<p class="text-center text-white">&copy; <?php echo date('Y'); ?> The DMI Group</p>
 			</div>

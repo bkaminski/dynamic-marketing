@@ -27,3 +27,20 @@
 	width: 50px;
 	margin-bottom: 15px;
 }
+a.nav-link {
+	color: inherit;
+	transition: 0.3s ease-in-out;
+	&:hover {
+		color: #F99D25;
+		transition: 0.3s ease-in-out;
+	}
+}
+.navbar-nav > .active > a { 
+    color: #002e5d;
+    font-weight: bold;
+    background: #F99D25;
+}
+.dropdown-item:focus, .dropdown-item:hover {
+    color: #fff;
+    background-color:  #F99D25;
+}

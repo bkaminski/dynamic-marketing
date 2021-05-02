@@ -10,7 +10,7 @@
 			<h1 class="text-uppercase display-3 fw-bold title-under main-heading">Making<br /> Connections</h1>
 			<p class="h1 display-3 text-uppercase fw-bold sub-heading pb-5">Delivering<br />Results</p>
 			<p class="h4 fw-bold pb-3">Committed to Growing Your Companies <span class="orange-text">Success</span>.</p>
-			<a href="#" class="btn btn-orange rounded-0 text-uppercase px-5 fw-bold">Learn More</a>
+			<a href="<?php echo get_home_url(); ?>/about-us" class="btn btn-orange rounded-0 text-uppercase px-5 fw-bold">Learn More</a>
 		</div>
 	</div>
 </section>

@@ -10,6 +10,6 @@
 				<img src="<?php echo get_home_url(); ?>/wp-content/uploads/dmi-logo-2.png" class="img-fluid pb-3" alt="The Dynamic Marketing Insights Group" />
 			</div>
 		</div>
-		<a href="#" class="btn btn-orange rounded-0 text-uppercase px-5 mb-5 fw-bold">Learn More</a>
+		<a href="<?php echo get_home_url(); ?>/about-us" class="btn btn-orange rounded-0 text-uppercase px-5 mb-5 fw-bold">Learn More</a>
 	</div>
 </section>
