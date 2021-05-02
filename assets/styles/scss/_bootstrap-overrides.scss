@@ -20,3 +20,10 @@
 		transition: 0.3s ease-in-out;
 	}
 }
+.list-inline.svcs::before {
+	content: '';
+	display: block;
+	border-top: 10px solid #fff;
+	width: 50px;
+	margin-bottom: 15px;
+}
