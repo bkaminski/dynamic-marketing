@@ -76,10 +76,10 @@ add_filter('the_excerpt', 'excerpt_read_more_link');
 add_filter( 'feed_links_show_comments_feed', '__return_false' );
 
 //REMOVE WP VERSION FROM CODE
-function intSound_remove_version() {
+function dmi_remove_version() {
 return '';
 }
-add_filter('the_generator', 'intSound_remove_version');
+add_filter('the_generator', 'dmi_remove_version');
 //REMOVE YOAST SEO COMMENTS
 if (defined('WPSEO_VERSION')) {
  add_action('wp_head',function() { ob_start(function($o) {
